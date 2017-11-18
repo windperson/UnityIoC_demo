@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1.csproj", "{DF512049-561F-4B06-8916-0EF4ED814F6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRlib", "module\HRlib\HRlib.csproj", "{D5CD1416-E460-444C-A7A2-FF81F51A1676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackSalaryFormula", "module\HackSalaryFormula\HackSalaryFormula.csproj", "{E6EE9286-BE09-43C0-8992-28CD435ADF27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRlibInterface", "module\HRlibInterface\HRlibInterface.csproj", "{FD65C7DA-6D03-4287-961C-7D9DCAAA817A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{DF512049-561F-4B06-8916-0EF4ED814F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF512049-561F-4B06-8916-0EF4ED814F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF512049-561F-4B06-8916-0EF4ED814F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5CD1416-E460-444C-A7A2-FF81F51A1676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5CD1416-E460-444C-A7A2-FF81F51A1676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5CD1416-E460-444C-A7A2-FF81F51A1676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5CD1416-E460-444C-A7A2-FF81F51A1676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6EE9286-BE09-43C0-8992-28CD435ADF27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6EE9286-BE09-43C0-8992-28CD435ADF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6EE9286-BE09-43C0-8992-28CD435ADF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6EE9286-BE09-43C0-8992-28CD435ADF27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD65C7DA-6D03-4287-961C-7D9DCAAA817A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD65C7DA-6D03-4287-961C-7D9DCAAA817A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD65C7DA-6D03-4287-961C-7D9DCAAA817A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD65C7DA-6D03-4287-961C-7D9DCAAA817A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
